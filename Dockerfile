@@ -1,10 +1,12 @@
 FROM php:8.3-apache
 
+
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    git unzip libpq-dev libzip-dev libicu-dev libxml2-dev libcurl4-openssl-dev \
+    git unzip libpq-dev libzip-dev libicu-dev libxml2-dev libcurl4-openssl-dev libonig-dev \
     && docker-php-ext-install -j"$(nproc)" pdo_pgsql mbstring bcmath intl zip xml curl opcache \
     && a2enmod rewrite headers \
     && rm -rf /var/lib/apt/lists/*
+
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
