@@ -1,0 +1,57 @@
+<?php
+
+return [
+    'accepted' => ':attribute harus disetujui.',
+    'after' => ':attribute harus setelah :date.',
+    'after_or_equal' => ':attribute tidak boleh sebelum :date.',
+    'array' => ':attribute harus berupa daftar.',
+    'before' => ':attribute harus sebelum :date.',
+    'before_or_equal' => ':attribute tidak boleh setelah :date.',
+    'between' => [
+        'numeric' => ':attribute harus antara :min dan :max.',
+        'string' => ':attribute harus antara :min dan :max karakter.',
+    ],
+    'boolean' => ':attribute harus bernilai benar atau salah.',
+    'confirmed' => 'Konfirmasi :attribute tidak sama.',
+    'date' => ':attribute bukan tanggal yang valid.',
+    'date_format' => ':attribute harus berformat :format.',
+    'email' => ':attribute harus berupa alamat email yang valid.',
+    'exists' => ':attribute yang dipilih tidak valid.',
+    'in' => ':attribute yang dipilih tidak valid.',
+    'integer' => ':attribute harus berupa bilangan bulat.',
+    'max' => [
+        'numeric' => ':attribute tidak boleh lebih dari :max.',
+        'string' => ':attribute tidak boleh lebih dari :max karakter.',
+        'array' => ':attribute tidak boleh lebih dari :max item.',
+    ],
+    'min' => [
+        'numeric' => ':attribute minimal :min.',
+        'string' => ':attribute minimal :min karakter.',
+        'array' => ':attribute minimal :min item.',
+    ],
+    'numeric' => ':attribute harus berupa angka.',
+    'required' => ':attribute wajib diisi.',
+    'string' => ':attribute harus berupa teks.',
+    'unique' => ':attribute sudah dipakai.',
+
+    'custom' => [],
+
+    'attributes' => [
+        'name' => 'Nama',
+        'email' => 'Email',
+        'phone' => 'Nomor telepon',
+        'role' => 'Peran',
+        'password' => 'Kata sandi',
+        'title' => 'Judul acara',
+        'description' => 'Deskripsi',
+        'category' => 'Kategori',
+        'location' => 'Lokasi',
+        'organizer' => 'Penyelenggara',
+        'event_date' => 'Tanggal acara',
+        'start_time' => 'Jam mulai',
+        'end_time' => 'Jam selesai',
+        'quota' => 'Kuota',
+        'code' => 'Kode registrasi',
+        'status' => 'Status',
+    ],
+];

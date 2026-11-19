@@ -1,0 +1,2 @@
+<span class="pill pill-status-<?php echo e($registration->status); ?>"><?php echo e($registration->status_label); ?></span>
+<?php /**PATH C:\xampp\htdocs\eventpulse\resources\views/partials/status-pill.blade.php ENDPATH**/ ?>
